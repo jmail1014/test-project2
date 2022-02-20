@@ -1,0 +1,32 @@
+{
+  "name": "test-project2",
+  "version": "1.0.0",
+  "description": "This application is a kanban for a company to use to track employee cases.\r The user story is: An employer would like to keep track of it's employees exposure to Covid19. It uses this information to make sure that the employee is quarentened for the correct number of days to keep others safe and to stop the spread of Covid19. \r It also uses this information to pass onto the contact tracing office who job it is to notify potential employees of exposure. Each employee case is managed initially through the employee's direct magager and this information is included in each case. The date of sympotms and positive testing are also documented. \r The kanban is organized with cases under the catagories of pending and completed.",
+  "main": "server.js",
+  "scripts": {
+    "test": "_mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com:jmail1014/test-project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mocha": "^9.2.1",
+    "mongoose": "^6.2.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.2"
+  }
+}
